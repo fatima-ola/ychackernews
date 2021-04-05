@@ -10,3 +10,23 @@ nav{
 .tabs .tab a{
   color: #ee002d!important;
 }
+
+.postlist{
+ margin: 20px 0;
+} 
+
+.titlebox{
+  margin-top: 20px;
+  height: 80px;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.linking{
+  color: black;
+}
+
+.numberOfComments{
+  cursor: pointer;
+}
