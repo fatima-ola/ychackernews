@@ -5,7 +5,9 @@ import Landing from './components/Landing';
 
 const App = ()=> {
   return (
-    <Landing />
+   <div>
+      <Landing />
+   </div>
   );
 }
 
