@@ -24,13 +24,13 @@ const NavBar = () => {
                 preventScrolling: true
                 }}
                 >
-                <NavItem href="">
+                <NavItem href="#login">
                     Login
                 </NavItem>
-                <NavItem href="components.html">
+                <NavItem href="#register">
                     Register
                 </NavItem>
-                <NavItem href="components.html">
+                <NavItem href="#search">
                     search
                 </NavItem>
             </Navbar>
