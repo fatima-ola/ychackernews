@@ -30,3 +30,12 @@ nav{
 .numberOfComments{
   cursor: pointer;
 }
+
+.commentinfo{
+  margin-top: 20px;
+  color: rgb(160, 159, 159)
+}
+
+.page-footer {
+  background-color: #ee002d!important;
+}
