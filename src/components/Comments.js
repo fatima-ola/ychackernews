@@ -3,23 +3,10 @@ import {Row, Col, CardPanel} from 'react-materialize';
 
 
 const Comments = (props) => {
+    
     const {postComments} = props;
+    const regex = /(<([^>]+)>)/ig ;
 
-    const regex = /<([\w\-/]+)( +[\w\-]+(=(('[^']*')|("[^"]*")))?)* *>/g;
-    // /<\/?[^>]+>/gi;
-  
-
-    // const regex = new RegExp(`.+?(?=${elemvalue.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')})`, "i");
-  
-    // /<[^>]+>/g;
-    // /(<([^>]+)>)/ig 
-   
-    // const stripedHtml = postComment.content.replace(/<[^>]+>/g, '');
-    // const decodedStripedHtml = he.decode(stripedHtml);
-
-   
-
-    console.log(postComments.content);
     return (
         <div className="container">
             <h4 className="center-align">Comment Section</h4>

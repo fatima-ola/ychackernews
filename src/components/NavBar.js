@@ -2,12 +2,13 @@ import React from 'react'
 import 'materialize-css';
 import {Navbar, Icon, NavItem} from 'react-materialize';
 
+
 const NavBar = () => {
     return (
         <div className="navbar-fixed">
             <Navbar
                 alignLinks="right"
-                brand={<a className="brand-logo" href="#news">Y Hacker News</a>}
+                brand={<a className="brand-logo" href="news" >Y Hacker News</a>}
                 centerChildren
                 id="mobile-nav"
                 menuIcon={<Icon>menu</Icon>}
