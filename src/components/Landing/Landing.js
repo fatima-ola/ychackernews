@@ -18,7 +18,7 @@ const Landing = ()=> {
   
 
     useEffect(() => {
-       axios.get('http://node-hnapi.herokuapp.com/news').then(res=> {
+       axios.get('https://node-hnapi.herokuapp.com/news').then(res=> {
            const posts = res.data;
            setPosts(posts);
        });
@@ -26,7 +26,7 @@ const Landing = ()=> {
 
     const handleClick = (id) => {
         const newId = id
-          axios.get(`http://node-hnapi.herokuapp.com/item/${newId}`).then(response=> {
+          axios.get(`https://node-hnapi.herokuapp.com/item/${newId}`).then(response=> {
            const postComments = response.data;
            const allComments = postComments.comments;
            setPostComments(allComments);
