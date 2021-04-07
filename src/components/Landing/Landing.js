@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
-import NavBar from './NavBar'
-import News from './News';
-import Comments from './Comments';
-import Pagination from './Pagination';
-import FooterSection from './FooterSection';
+import NavBar from '../NavBar'
+import News from '../News';
+import Comments from '../Comments';
+import Pagination from '../Pagination';
+import FooterSection from '../FooterSection';
 
 
 
